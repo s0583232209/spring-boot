@@ -239,4 +239,4 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/) (CC BY 4.0).
 
 ## 📄 License
 
-Add a license of your choice (for example [MIT](https://choosealicense.com/licenses/mit/)) and save it as `LICENSE`.
+MIT
