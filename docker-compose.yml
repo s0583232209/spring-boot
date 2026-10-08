@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: plantdb
+    environment:
+      POSTGRES_DB: plantdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: secret
+    ports:
+      - "5433:5432"
+    volumes:
+      - plantdb_data:/var/lib/postgresql/data
+
+volumes:
+  plantdb_data:

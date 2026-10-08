@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/plantdb
+    username: postgres
+    password: secret
+  jpa:
+    hibernate:
+      ddl-auto: update   # ללמידה בלבד. בפרודקשן משתמשים ב-Flyway
+    show-sql: true
